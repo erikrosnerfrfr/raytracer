@@ -86,7 +86,7 @@ public class Main {
      root.addShape(skull);
 
      System.out.println("Das Mapping mit der gun hat nicht so ganz funktioniert aber es lädt weiter");
-     System.out.println(" Dauert etwa 300 Sekunden bei mir");
+     //System.out.println(" Dauert etwa 300 Sekunden bei mir");
         Group bobo = new Group(new Transform(multiply(move(-6, 0.5, -7), rotate(Vec3.yAxis, 20), scale(0.5,0.5,0.5))));
     bobo.addShape(new Sphere(vec3(0,0,0), 1, bozo));
     bobo.addShape(new Sphere(vec3(0.2,0,0.6), 0.4, red));
